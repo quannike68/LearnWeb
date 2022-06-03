@@ -1,0 +1,141 @@
+body {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.red {
+    border: 2px solid red;
+}
+
+.green {
+    border: 2px solid green;
+}
+
+.Banner {
+
+    height: 800px;
+    width: 100%;
+    background: url("./images/IELY3079.png") center center no-repeat;
+}
+
+.AboutSingIn {
+    height: 80px;
+    width: 100%;
+    text-align: right;
+    margin-right: 100px;
+    /* float: right; */
+    padding-top: 50px;
+}
+
+.SignIn {
+    margin-right: 60px !important;
+
+}
+
+.About,
+.SignIn {
+    color: rgb(207, 99, 5);
+    padding-right: 45px;
+    padding: 10px;
+    /* margin-top: 80px; */
+    height: 20px;
+    width: 30px;
+    margin-right: 15px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+
+.About:hover,
+.SignIn:hover {
+    background-color: rgba(255, 255, 255, 0.26);
+}
+
+.Logo img {
+    width: 270px;
+    height: 342px;
+    /* background: url(./images/logo-soict-hust-1.png) center center no-repeat !important; */
+    display: block;
+    margin-left: 15%;
+    margin-right: auto;
+    /* margin-top: 50px; */
+}
+
+.text {
+    /* padding-top: 10px; */
+    font-size: 20px;
+    text-align: center;
+    /* padding-right: 500px; */
+    margin-right: 55%;
+    margin-left: 8%;
+    padding-bottom: 70px;
+}
+
+.bntStart {
+    height: 80px;
+    width: 45%;
+}
+
+.bntStart .bntS {
+
+    padding: 10px;
+    margin-left: 45%;
+    background-color: rgba(255, 99, 71, 0.709);
+    color: aliceblue;
+    border-radius: 20px;
+    justify-content: space-between;
+}
+
+.bntStart .bntS:hover {
+    background-color: rgba(255, 99, 71, 0.454);
+    color: white;
+    border-color: aliceblue;
+}
+
+.contentCenter {
+    height: 120px;
+    width: 50%;
+    /* margin-top: 35px;
+    padding-top: 60px; */
+
+    /* display: inline-block; */
+    /* border: 1px solid white; */
+    text-align: center;
+
+}
+
+.left,
+.center,
+.right {
+    width: 25%;
+    color: aliceblue;
+    display: inline-block;
+    background-color: rgba(177, 101, 29, 0.719);
+    text-align: center;
+    justify-content: space-between !important;
+    border-radius: 20px;
+
+}
+
+.left:hover,
+.center:hover,
+.right:hover {
+    background-color: rgba(255, 99, 71, 0.236);
+    /* border-color: bisque !important; */
+
+}
+
+span {
+
+    display: block;
+
+}
+
+img {
+
+    width: 30px;
+    height: 30px;
+
+}
